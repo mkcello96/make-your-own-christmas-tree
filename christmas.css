@@ -1,0 +1,34 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size:30pt;
+	background-image:url("winterbackground5.gif");
+	background-size: 400px 300px;
+	background-repeat: repeat;
+}
+
+/*.ornaments, #tree , button{
+	display: none;
+}*/
+
+#loading {
+	color: pink;
+}
+
+#treeimg, #snowmanimg, #starimg, #ornament {
+	 
+}
+
+#snowman, #snow, #tree, #loading {
+	position:absolute;
+}
+
+.ornaments{
+	border:1px solid white;
+	border-radius:10px;
+	border-top:none;
+}
+
+select, button, .ornaments {
+	margin: 5px;
+}
